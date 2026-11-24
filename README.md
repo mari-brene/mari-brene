@@ -60,7 +60,7 @@ mari@github ~ $ ./stats.sh --user mari-brene
 ```
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mari-brene&show_icons=true&theme=dracula&bg_color=282a36&title_color=ff79c6&text_color=f8f8f2&icon_color=8be9fd&border_color=44475a&locale=pt-br" alt="Estatísticas do GitHub">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mari-brene&show_icons=true&commits_year=2026&theme=dracula&bg_color=282a36&title_color=ff79c6&text_color=f8f8f2&icon_color=8be9fd&border_color=44475a&locale=pt-br" alt="Estatísticas do GitHub">
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mari-brene&layout=compact&theme=dracula&bg_color=282a36&title_color=ff79c6&text_color=f8f8f2&border_color=44475a&locale=pt-br" alt="Linguagens mais usadas">
 </p>
 

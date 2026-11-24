@@ -3,7 +3,10 @@
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+import os
+
 import gifos
+import requests
 
 USER = "mari-brene"
 TZ = ZoneInfo("America/Sao_Paulo")
@@ -19,13 +22,34 @@ VERMELHO = "\x1b[91m"
 TITULO = "\x1b[30;105m"
 
 
-def buscar_stats():
+def commits_do_ano(ano: str):
+    """Commits (públicos + privados) de 1º de janeiro até agora."""
+    query = """
+    query($login: String!, $from: DateTime!) {
+      user(login: $login) {
+        contributionsCollection(from: $from) {
+          totalCommitContributions
+          restrictedContributionsCount
+        }
+      }
+    }"""
+    r = requests.post(
+        "https://api.github.com/graphql",
+        json={"query": query, "variables": {"login": USER, "from": f"{ano}-01-01T00:00:00Z"}},
+        headers={"Authorization": f"bearer {os.environ['GITHUB_TOKEN']}"},
+        timeout=30,
+    )
+    c = r.json()["data"]["user"]["contributionsCollection"]
+    return c["totalCommitContributions"] + c["restrictedContributionsCount"]
+
+
+def buscar_stats(ano: str):
     try:
         s = gifos.utils.fetch_github_stats(USER)
         langs = ", ".join(lang[0] for lang in s.languages_sorted[:5]) or "-"
         return {
             "rank": s.user_rank.level,
-            "commits": s.total_commits_last_year,
+            "commits": commits_do_ano(ano),
             "prs": s.total_pull_requests_made,
             "estrelas": s.total_stargazers,
             "repos": s.total_repo_contributions,
@@ -81,7 +105,7 @@ def main():
     t.delete_row(8, col)
     t.gen_text(f"{VERDE}clear{R}", 8, count=3, contin=True)
 
-    st = buscar_stats()
+    st = buscar_stats(ano)
 
     t.clear_frame()
     t.gen_prompt(1)
