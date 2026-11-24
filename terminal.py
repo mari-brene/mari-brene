@@ -123,8 +123,6 @@ def main():
 {CIANO}Nome:      {AMARELO}Maria Clara Brene{R}
 {CIANO}Cargo:     {AMARELO}Desenvolvedora Júnior{R}
 {CIANO}Local:     {AMARELO}Joinville, SC{R}
-{CIANO}Formação:  {AMARELO}ADS (IFTM){R}
-{CIANO}Cursando:  {AMARELO}Jogos Digitais (UNOPAR){R}
 {CIANO}Stack:     {AMARELO}Next.js, React, Supabase{R}
 {CIANO}Projeto:   {AMARELO}Sistema Leads MVP (CRM + IA){R}
 
