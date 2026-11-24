@@ -44,10 +44,7 @@ def buscar():
     return [
         ("Contribuições", a["contributionCalendar"]["totalContributions"]),
         ("Commits", a["totalCommitContributions"] + a["restrictedContributionsCount"]),
-        ("Pull requests", a["totalPullRequestContributions"]),
-        ("PRs mesclados", u["pullRequests"]["totalCount"]),
-        ("Repositórios", u["repositories"]["totalCount"]),
-        ("Estrelas", sum(n["stargazerCount"] for n in u["repositories"]["nodes"])),
+        ("Repos públicos", u["repositories"]["totalCount"]),
     ]
 
 
