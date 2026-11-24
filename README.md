@@ -12,6 +12,10 @@
   <a href="SEU_LINK_SPOTIFY"><img src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"></a>
 </p>
 
+<p align="center">
+  <img alt="Terminal da Mari" src="https://raw.githubusercontent.com/mari-brene/mari-brene/output/terminal.gif">
+</p>
+
 ---
 
 ### 🙋‍♀️ Sobre mim
