@@ -39,7 +39,7 @@
 
 ### 📌 Projeto em destaque
 
-#### Sistema Leads MVP
+#### [Sistema Leads MVP](https://github.com/mari-brene/sistema-leads-mvp)
 CRM multi-clientes para prospecção e atendimento via WhatsApp.
 
 - Kanban de leads, caixa de entrada em 3 colunas e importação/exportação de CSV
@@ -56,7 +56,7 @@ CRM multi-clientes para prospecção e atendimento via WhatsApp.
 ### 📊 Estatísticas
 
 <p align="center">
-  <img height="188" src="https://raw.githubusercontent.com/mari-brene/mari-brene/output/stats.svg" alt="Estatísticas do GitHub">
+  <img src="https://raw.githubusercontent.com/mari-brene/mari-brene/output/stats.svg" alt="Estatísticas do GitHub">
   <img height="188" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mari-brene&layout=compact&theme=dracula&bg_color=282a36&title_color=ff79c6&text_color=f8f8f2&border_color=44475a&locale=pt-br" alt="Linguagens mais usadas">
 </p>
 
