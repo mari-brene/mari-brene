@@ -42,7 +42,26 @@ jobs:
             dist/github-snake.svg?palette=github-light&color_snake=#4F46E5&color_dots=#ebedf0,#c7d2fe,#a5b4fc,#6366f1,#4338ca
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#a5b4fc&color_dots=#161b22,#312e81,#4338ca,#4F46E5,#818cf8
 
-      - name: Publicar SVGs na branch output
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências do terminal
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          pip install git+https://github.com/x0rzavi/github-readme-terminal.git@main
+
+      - name: Gerar GIF do terminal
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIFOS_GENERAL_FPS: 15
+          GIFOS_GENERAL_COLOR_SCHEME: dracula
+        run: |
+          mkdir -p /tmp/terminal && cd /tmp/terminal
+          python "$GITHUB_WORKSPACE/terminal.py"
+          mv output.gif "$GITHUB_WORKSPACE/dist/terminal.gif"
+
+      - name: Publicar na branch output
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
