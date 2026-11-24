@@ -21,13 +21,16 @@ jobs:
       - name: Criar pasta dist
         run: mkdir -p dist
 
-      - name: Gerar Space Shooter
-        uses: czl9707/gh-space-shooter@v2
+      - uses: actions/setup-python@v5
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          output-path: dist/gh-space-shooter.gif
-          strategy: random
-          no-commit: true
+          python-version: "3.12"
+
+      - name: Gerar Space Shooter
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          pip install gh-space-shooter
+          gh-space-shooter ${{ github.repository_owner }} --output dist/gh-space-shooter.gif --strategy random --fps 40
 
       - name: Gerar Pac-Man
         uses: abozanona/pacman-contribution-graph@main
@@ -41,10 +44,6 @@ jobs:
           outputs: |
             dist/github-snake.svg?palette=github-light&color_snake=#4F46E5&color_dots=#ebedf0,#c7d2fe,#a5b4fc,#6366f1,#4338ca
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#a5b4fc&color_dots=#161b22,#312e81,#4338ca,#4F46E5,#818cf8
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
 
       - name: Instalar dependências do terminal
         run: |
