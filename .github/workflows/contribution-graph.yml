@@ -1,4 +1,4 @@
-name: Gerar Pac-Man e cobrinha das contribuições
+name: Gerar animações das contribuições
 
 on:
   schedule:
@@ -16,6 +16,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
+
+      - name: Gerar Space Shooter
+        uses: czl9707/gh-space-shooter@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          output-path: dist/gh-space-shooter.gif
+          strategy: random
+          no-commit: true
+
       - name: Gerar Pac-Man
         uses: abozanona/pacman-contribution-graph@main
         with:

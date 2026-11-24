@@ -63,9 +63,14 @@ CRM multi-clientes para prospecção e atendimento via WhatsApp.
 
 ---
 
-### 🐍 Contribuições
+### 🚀 Contribuições
 
-<!-- Cobrinha (Platane/snk) comendo o gráfico de contribuições, nas cores do perfil -->
+<!-- Nave (czl9707/gh-space-shooter) destruindo o gráfico de contribuições -->
+<p align="center">
+  <img alt="Space Shooter no gráfico de contribuições" src="https://raw.githubusercontent.com/mari-brene/mari-brene/output/gh-space-shooter.gif">
+</p>
+
+<!-- Para usar a cobrinha (Platane/snk) no lugar da nave, troque o bloco acima por este:
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mari-brene/mari-brene/output/github-snake-dark.svg">
@@ -73,6 +78,7 @@ CRM multi-clientes para prospecção e atendimento via WhatsApp.
     <img alt="Cobrinha no gráfico de contribuições" src="https://raw.githubusercontent.com/mari-brene/mari-brene/output/github-snake.svg">
   </picture>
 </p>
+-->
 
 <!-- Para usar o Pac-Man no lugar da cobrinha, troque o bloco acima por este:
 <p align="center">
