@@ -56,8 +56,8 @@ CRM multi-clientes para prospecção e atendimento via WhatsApp.
 ### 📊 Estatísticas
 
 <p align="center">
-  <img height="195" src="https://raw.githubusercontent.com/mari-brene/mari-brene/output/stats.svg" alt="Estatísticas do GitHub">
-  <img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mari-brene&layout=compact&theme=dracula&bg_color=282a36&title_color=ff79c6&text_color=f8f8f2&border_color=44475a&locale=pt-br" alt="Linguagens mais usadas">
+  <img height="188" src="https://raw.githubusercontent.com/mari-brene/mari-brene/output/stats.svg" alt="Estatísticas do GitHub">
+  <img height="188" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mari-brene&layout=compact&theme=dracula&bg_color=282a36&title_color=ff79c6&text_color=f8f8f2&border_color=44475a&locale=pt-br" alt="Linguagens mais usadas">
 </p>
 
 <p align="center">
