@@ -18,6 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Criar pasta dist
+        run: mkdir -p dist
+
       - name: Gerar Space Shooter
         uses: czl9707/gh-space-shooter@v2
         with:
