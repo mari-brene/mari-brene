@@ -30,7 +30,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install gh-space-shooter
-          gh-space-shooter ${{ github.repository_owner }} --output dist/gh-space-shooter.gif --strategy random --fps 40
+          python space_shooter.py ${{ github.repository_owner }} --output dist/gh-space-shooter.gif --strategy random --fps 40
 
       - name: Gerar Pac-Man
         uses: abozanona/pacman-contribution-graph@main
@@ -42,8 +42,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg?palette=github-light&color_snake=#4F46E5&color_dots=#ebedf0,#c7d2fe,#a5b4fc,#6366f1,#4338ca
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#a5b4fc&color_dots=#161b22,#312e81,#4338ca,#4F46E5,#818cf8
+            dist/github-snake.svg?color_snake=#50fa7b&color_dots=#343746,#6272a4,#bd93f9,#ff79c6,#ff5555
+            dist/github-snake-dark.svg?color_snake=#50fa7b&color_dots=#343746,#6272a4,#bd93f9,#ff79c6,#ff5555
 
       - name: Instalar dependências do terminal
         run: |

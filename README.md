@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/maria-clara-galvao"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://www.instagram.com/mgalvao.png"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-  <a href="mailto:brenemariaclara@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
-  <a href="https://open.spotify.com/user/22i3f4d5jbavg5gfcmtroaizq"><img src="https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"></a>
+  <a href="https://www.linkedin.com/in/maria-clara-galvao"><img src="https://img.shields.io/badge/LinkedIn-282a36?style=for-the-badge&logo=linkedin&logoColor=8be9fd&labelColor=282a36" alt="LinkedIn"></a>
+  <a href="https://www.instagram.com/mgalvao.png"><img src="https://img.shields.io/badge/Instagram-282a36?style=for-the-badge&logo=instagram&logoColor=ff79c6&labelColor=282a36" alt="Instagram"></a>
+  <a href="mailto:brenemariaclara@gmail.com"><img src="https://img.shields.io/badge/Gmail-282a36?style=for-the-badge&logo=gmail&logoColor=ff5555&labelColor=282a36" alt="Gmail"></a>
+  <a href="https://open.spotify.com/user/22i3f4d5jbavg5gfcmtroaizq"><img src="https://img.shields.io/badge/Spotify-282a36?style=for-the-badge&logo=spotify&logoColor=50fa7b&labelColor=282a36" alt="Spotify"></a>
 </p>
 
 <p align="center">
