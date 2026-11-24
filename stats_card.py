@@ -41,11 +41,16 @@ def buscar():
     r.raise_for_status()
     u = r.json()["data"]["user"]
     a = u["ano"]
-    return [
+    linhas = [
         ("Contribuições", a["contributionCalendar"]["totalContributions"]),
         ("Commits", a["totalCommitContributions"] + a["restrictedContributionsCount"]),
+        ("Pull requests", a["totalPullRequestContributions"]),
+        ("PRs mesclados", u["pullRequests"]["totalCount"]),
         ("Repos públicos", u["repositories"]["totalCount"]),
+        ("Estrelas", sum(n["stargazerCount"] for n in u["repositories"]["nodes"])),
     ]
+    # Contribuições e commits sempre aparecem; o resto só se for maior que zero
+    return linhas[:2] + [l for l in linhas[2:] if l[1]]
 
 
 def svg(linhas):
