@@ -1,4 +1,4 @@
-<h1 align="center">Olá, eu sou a Maria Clara 👋</h1>
+<h1 align="center">Olá, eu sou a Maria Clara</h1>
 <p align="center">
   <b>Desenvolvedora de Software Júnior · Web e Mobile</b><br>
   Joinville, SC · Brasil
@@ -17,17 +17,17 @@
 
 ---
 
-### 🙋‍♀️ Sobre mim
+### `$ whoami`
 
-- 🎓 Formada em **Análise e Desenvolvimento de Sistemas** (IFTM, 2025)
-- 🎮 Cursando **Jogos Digitais** (UNOPAR, previsão 2028)
-- 🔌 Técnica em **Eletrônica** (IFTM, 2019)
-- 💼 Em busca da minha primeira oportunidade como **Dev Júnior (Web e Mobile)**
-- 🚀 Atualmente construindo um **CRM multi-clientes** com Next.js, Supabase e IA
+- Formada em **Análise e Desenvolvimento de Sistemas** (IFTM, 2025)
+- Cursando **Jogos Digitais** (UNOPAR, previsão 2028)
+- Técnica em **Eletrônica** (IFTM, 2019)
+- Em busca da minha primeira oportunidade como **Dev Júnior (Web e Mobile)**
+- Atualmente construindo um **CRM multi-clientes** com Next.js, Supabase e IA
 
 ---
 
-### 🛠️ Tecnologias
+### `$ ls ~/stack`
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -37,7 +37,7 @@
 
 ---
 
-### 📌 Projeto em destaque
+### `$ cat projeto-em-destaque.md`
 
 #### [Sistema Leads MVP](https://github.com/mari-brene/sistema-leads-mvp)
 CRM multi-clientes para prospecção e atendimento via WhatsApp.
@@ -53,7 +53,7 @@ CRM multi-clientes para prospecção e atendimento via WhatsApp.
 
 ---
 
-### 📊 Estatísticas
+### `$ ./estatisticas.sh`
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/mari-brene/mari-brene/output/stats.svg" alt="Estatísticas do GitHub">
@@ -66,7 +66,7 @@ CRM multi-clientes para prospecção e atendimento via WhatsApp.
 
 ---
 
-### 🚀 Contribuições
+### `$ ./contribuicoes.sh`
 
 <!-- Nave (czl9707/gh-space-shooter) destruindo o gráfico de contribuições -->
 <p align="center">
