@@ -42,7 +42,8 @@ def buscar():
             tamanhos[e["node"]["name"]] += e["size"]
             cores[e["node"]["name"]] = e["node"]["color"] or "#6272a4"
     total = sum(tamanhos.values()) or 1
-    return [(n, t / total * 100, cores[n]) for n, t in tamanhos.most_common(TOP)]
+    langs = [(n, t / total * 100, cores[n]) for n, t in tamanhos.most_common(TOP)]
+    return [l for l in langs if l[1] >= 0.1]
 
 
 def svg(langs):
