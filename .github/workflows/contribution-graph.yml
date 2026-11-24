@@ -60,14 +60,10 @@ jobs:
           python "$GITHUB_WORKSPACE/terminal.py"
           mv output.gif "$GITHUB_WORKSPACE/dist/terminal.gif"
 
-      - name: Atualizar o ano dos commits no README
-        run: |
-          ANO=$(TZ=America/Sao_Paulo date +%Y)
-          sed -i -E "s/commits_year=[0-9]{4}/commits_year=$ANO/" README.md
-          if ! git diff --quiet README.md; then
-            git -c user.name="github-actions[bot]" -c user.email="github-actions[bot]@users.noreply.github.com" commit -am "Atualiza ano dos commits para $ANO"
-            git push
-          fi
+      - name: Gerar card de estatísticas
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python stats_card.py
 
       - name: Publicar na branch output
         uses: crazy-max/ghaction-github-pages@v4
