@@ -20,8 +20,6 @@
 
 ### `$ whoami`
 
-- Formada em **Análise e Desenvolvimento de Sistemas** (IFTM, 2025)
-- Cursando **Jogos Digitais** (UNOPAR, previsão 2028)
 - Técnica em **Eletrônica** (IFTM, 2019)
 - Em busca da minha primeira oportunidade como **Desenvolvedora Júnior**
 - Atualmente construindo um **CRM multi-clientes** com Next.js, Supabase e IA
