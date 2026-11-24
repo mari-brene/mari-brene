@@ -2,7 +2,7 @@ name: Gerar animações das contribuições
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # a cada 12 horas
+    - cron: "17 */6 * * *" # a cada 6 horas
   workflow_dispatch: # permite rodar manualmente
   push:
     branches:
@@ -63,7 +63,9 @@ jobs:
       - name: Gerar card de estatísticas
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python stats_card.py
+        run: |
+          python stats_card.py
+          python langs_card.py
 
       - name: Publicar na branch output
         uses: crazy-max/ghaction-github-pages@v4
