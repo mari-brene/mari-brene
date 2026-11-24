@@ -63,23 +63,23 @@ CRM multi-clientes para prospecção e atendimento via WhatsApp.
 
 ---
 
-### 👾 Contribuições
+### 🐍 Contribuições
 
-<!-- Pac-Man comendo o gráfico de contribuições (gerado pelo workflow .github/workflows/contribution-graph.yml) -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mari-brene/mari-brene/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mari-brene/mari-brene/output/pacman-contribution-graph.svg">
-    <img alt="Pac-Man no gráfico de contribuições" src="https://raw.githubusercontent.com/mari-brene/mari-brene/output/pacman-contribution-graph.svg">
-  </picture>
-</p>
-
-<!-- Para usar a cobrinha no lugar do Pac-Man, troque o bloco acima por este:
+<!-- Cobrinha (Platane/snk) comendo o gráfico de contribuições, nas cores do perfil -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mari-brene/mari-brene/output/github-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mari-brene/mari-brene/output/github-snake.svg">
     <img alt="Cobrinha no gráfico de contribuições" src="https://raw.githubusercontent.com/mari-brene/mari-brene/output/github-snake.svg">
+  </picture>
+</p>
+
+<!-- Para usar o Pac-Man no lugar da cobrinha, troque o bloco acima por este:
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mari-brene/mari-brene/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mari-brene/mari-brene/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man no gráfico de contribuições" src="https://raw.githubusercontent.com/mari-brene/mari-brene/output/pacman-contribution-graph.svg">
   </picture>
 </p>
 -->
