@@ -56,13 +56,17 @@ CRM multi-clientes para prospecção e atendimento via WhatsApp.
 
 ### 📊 Estatísticas
 
+```console
+mari@github ~ $ ./stats.sh --user mari-brene
+```
+
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mari-brene&show_icons=true&hide_border=true&title_color=4F46E5&icon_color=4F46E5&locale=pt-br" alt="Estatísticas do GitHub">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mari-brene&layout=compact&hide_border=true&title_color=4F46E5&locale=pt-br" alt="Linguagens mais usadas">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mari-brene&show_icons=true&theme=dracula&bg_color=282a36&title_color=ff79c6&text_color=f8f8f2&icon_color=8be9fd&border_color=44475a&locale=pt-br" alt="Estatísticas do GitHub">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mari-brene&layout=compact&theme=dracula&bg_color=282a36&title_color=ff79c6&text_color=f8f8f2&border_color=44475a&locale=pt-br" alt="Linguagens mais usadas">
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=mari-brene&hide_border=true&ring=4F46E5&fire=4F46E5&currStreakLabel=4F46E5&locale=pt_BR" alt="Sequência de contribuições">
+  <img src="https://streak-stats.demolab.com?user=mari-brene&theme=dracula&background=282a36&border=44475a&ring=ff79c6&fire=ff79c6&currStreakNum=f8f8f2&sideNums=f8f8f2&currStreakLabel=8be9fd&sideLabels=8be9fd&dates=6272a4&stroke=44475a&locale=pt_BR" alt="Sequência de contribuições">
 </p>
 
 ---
