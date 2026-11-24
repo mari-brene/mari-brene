@@ -1,6 +1,6 @@
 <h1 align="center">Olá, eu sou a Maria Clara</h1>
 <p align="center">
-  <b>Desenvolvedora de Software Júnior · Web e Mobile</b><br>
+  <b>Desenvolvedora Júnior</b><br>
   Joinville, SC · Brasil
 </p>
 
@@ -22,7 +22,7 @@
 - Formada em **Análise e Desenvolvimento de Sistemas** (IFTM, 2025)
 - Cursando **Jogos Digitais** (UNOPAR, previsão 2028)
 - Técnica em **Eletrônica** (IFTM, 2019)
-- Em busca da minha primeira oportunidade como **Dev Júnior (Web e Mobile)**
+- Em busca da minha primeira oportunidade como **Desenvolvedora Júnior**
 - Atualmente construindo um **CRM multi-clientes** com Next.js, Supabase e IA
 
 ---

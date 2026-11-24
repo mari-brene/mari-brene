@@ -121,7 +121,7 @@ def main():
 {TITULO} mari-brene@GitHub {R}
 -------------------
 {CIANO}Nome:      {AMARELO}Maria Clara Brene{R}
-{CIANO}Cargo:     {AMARELO}Dev Júnior - Web e Mobile{R}
+{CIANO}Cargo:     {AMARELO}Desenvolvedora Júnior{R}
 {CIANO}Local:     {AMARELO}Joinville, SC{R}
 {CIANO}Formação:  {AMARELO}ADS (IFTM){R}
 {CIANO}Cursando:  {AMARELO}Jogos Digitais (UNOPAR){R}
