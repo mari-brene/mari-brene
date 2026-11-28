@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="240" viewBox="0 0 495 240">
+<style>
+text { font-family: 'JetBrains Mono','Fira Code',Consolas,monospace; font-size: 14px; }
+.p { fill: #bd93f9; } .g { fill: #50fa7b; } .f { fill: #f8f8f2; }
+.t { fill: #282a36; font-weight: 700; } .l { fill: #8be9fd; } .v { fill: #f1fa8c; font-weight: 700; }
+.c { fill: #f8f8f2; animation: b 1s steps(1) infinite; }
+@keyframes b { 50% { opacity: 0; } }
+</style>
+<rect x="0.5" y="0.5" width="494" height="239" rx="6" fill="#282a36" stroke="#44475a"/>
+<text x="25" y="30" xml:space="preserve"><tspan class="p">mari</tspan><tspan class="f">@</tspan><tspan class="l">github</tspan><tspan class="f"> ~ $ </tspan><tspan class="g">linguagens</tspan><tspan class="f"> --top 6</tspan></text>
+<rect x="22" y="44" width="190" height="20" fill="#ff79c6"/>
+<text x="30" y="59" class="t">Linguagens mais usadas</text>
+<text x="25" y="82" class="l">TypeScript</text><rect x="170" y="72" width="230" height="10" rx="2" fill="#44475a"/><rect x="170" y="72" width="118.9" height="10" rx="2" fill="#3178c6"/><text x="412" y="82" class="v">51.7%</text><text x="25" y="108" class="l">Python</text><rect x="170" y="98" width="230" height="10" rx="2" fill="#44475a"/><rect x="170" y="98" width="77.5" height="10" rx="2" fill="#3572A5"/><text x="412" y="108" class="v">33.7%</text><text x="25" y="134" class="l">HTML</text><rect x="170" y="124" width="230" height="10" rx="2" fill="#44475a"/><rect x="170" y="124" width="26.3" height="10" rx="2" fill="#e34c26"/><text x="412" y="134" class="v">11.4%</text><text x="25" y="160" class="l">CSS</text><rect x="170" y="150" width="230" height="10" rx="2" fill="#44475a"/><rect x="170" y="150" width="4.9" height="10" rx="2" fill="#663399"/><text x="412" y="160" class="v">2.1%</text><text x="25" y="186" class="l">PLpgSQL</text><rect x="170" y="176" width="230" height="10" rx="2" fill="#44475a"/><rect x="170" y="176" width="2.2" height="10" rx="2" fill="#336790"/><text x="412" y="186" class="v">0.9%</text>
+<rect x="25" y="218" width="9" height="15" class="c"/>
+</svg>

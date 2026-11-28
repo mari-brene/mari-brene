@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="240" viewBox="0 0 495 240">
+<style>
+text { font-family: 'JetBrains Mono','Fira Code',Consolas,monospace; font-size: 14px; }
+.p { fill: #bd93f9; } .g { fill: #50fa7b; } .f { fill: #f8f8f2; }
+.t { fill: #282a36; font-weight: 700; } .l { fill: #8be9fd; } .v { fill: #f1fa8c; font-weight: 700; }
+.c { fill: #f8f8f2; animation: b 1s steps(1) infinite; }
+@keyframes b { 50% { opacity: 0; } }
+</style>
+<rect x="0.5" y="0.5" width="494" height="239" rx="6" fill="#282a36" stroke="#44475a"/>
+<text x="25" y="30" xml:space="preserve"><tspan class="p">mari</tspan><tspan class="f">@</tspan><tspan class="l">github</tspan><tspan class="f"> ~ $ </tspan><tspan class="g">stats</tspan><tspan class="f"> --ano 2026</tspan></text>
+<rect x="22" y="44" width="150" height="20" fill="#ff79c6"/>
+<text x="30" y="59" class="t">GitHub Stats 2026</text>
+<text x="25" y="82" class="l">Contribuições:</text><text x="220" y="82" class="v">467</text><text x="25" y="108" class="l">Commits:</text><text x="220" y="108" class="v">458</text><text x="25" y="134" class="l">Pull requests:</text><text x="220" y="134" class="v">4</text><text x="25" y="160" class="l">PRs mesclados:</text><text x="220" y="160" class="v">3</text><text x="25" y="186" class="l">Repos públicos:</text><text x="220" y="186" class="v">4</text>
+<rect x="25" y="218" width="9" height="15" class="c"/>
+</svg>
